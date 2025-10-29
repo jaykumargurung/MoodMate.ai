@@ -1,0 +1,8 @@
+{
+  "name": "MoodMate - Your AI Companion",
+  "description": "An emotionally intelligent AI designed to lift your spirit, listen deeply, and guide you toward self-awareness and positivity through conversation, journaling, and mindful actions.",
+  "requestFramePermissions": [
+    "microphone",
+    "geolocation"
+  ]
+}

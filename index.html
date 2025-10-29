@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MoodMate - Your AI Companion</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'base': '#F8F9FA', // Off-white background
+              'surface': '#FFFFFF', // Card and modal backgrounds
+              'primary': '#4A90E2', // A calming, friendly blue
+              'primary-focus': '#357ABD',
+              'secondary': '#50E3C2', // A gentle, positive mint green
+              'text-primary': '#212529', // Dark gray for main text
+              'text-secondary': '#6C757D', // Lighter gray for secondary text
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            boxShadow: {
+              'subtle': '0 4px 12px rgba(0, 0, 0, 0.05)',
+            },
+          }
+        }
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.27.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "marked": "https://aistudiocdn.com/marked@^16.4.1"
+  }
+}
+</script>
+</head>
+  <body class="bg-base text-text-primary font-sans antialiased">
+    <div id="root"></div>
+  </body>
+</html>
